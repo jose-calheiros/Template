@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.linha{
+    width: 25%;
+    background-color: blue;
+    height: 652px;
+
+}
+.bloco{
+    width: 75%;
+    background-color: brown;
+    height: 652px;
+    margin-left: 10px;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 652px) {
+    .linha {
+      width: 50%   ;
+    }
+    .bloco{
+        width: 50%;
+    }
+  }
